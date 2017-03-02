@@ -1,0 +1,10 @@
+version: 1.0
+shards:
+  protobuf:
+    github: jeromegn/protobuf.cr
+    version: 2.0.4
+
+  tensorflow:
+    path: ../tensorflow.cr
+    version: 0.1.0
+

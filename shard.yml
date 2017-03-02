@@ -1,0 +1,22 @@
+name: tensorflow_examples
+version: 0.1.0
+
+authors:
+  - Michał Kalbarczyk <fazibear@gmail.com>
+
+targets:
+  deprecated:
+    main: src/deprecated.cr
+  ok:
+    main: src/ok.cr
+  dls:
+    main: src/dsl.cr
+
+dependencies:
+  tensorflow:
+    path: ../tensorflow.cr
+
+
+crystal: 0.20.5
+
+license: MIT
